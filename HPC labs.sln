@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33027.164
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HPC-2022", "Matmul\Matmul.vcxproj", "{00341823-0ECC-4A8A-8552-727AAAECFDD7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VectorSum", "VectorSum\VectorSum.vcxproj", "{56D75333-5C20-491D-A3D8-62A01B3CAB2B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BilateralFiltering", "BilateralFiltering\BilateralFiltering.vcxproj", "{CE3B6C32-7EA6-41BE-AAD1-7CEAF77EE8B2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BilinearInterpolation", "BilinearInterpolation\BilinearInterpolation.vcxproj", "{7063217F-36A0-4CE7-AF49-A5C9EAC26235}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00341823-0ECC-4A8A-8552-727AAAECFDD7}.Debug|x64.ActiveCfg = Debug|x64
+		{00341823-0ECC-4A8A-8552-727AAAECFDD7}.Debug|x64.Build.0 = Debug|x64
+		{00341823-0ECC-4A8A-8552-727AAAECFDD7}.Release|x64.ActiveCfg = Release|x64
+		{00341823-0ECC-4A8A-8552-727AAAECFDD7}.Release|x64.Build.0 = Release|x64
+		{56D75333-5C20-491D-A3D8-62A01B3CAB2B}.Debug|x64.ActiveCfg = Debug|x64
+		{56D75333-5C20-491D-A3D8-62A01B3CAB2B}.Debug|x64.Build.0 = Debug|x64
+		{56D75333-5C20-491D-A3D8-62A01B3CAB2B}.Release|x64.ActiveCfg = Release|x64
+		{56D75333-5C20-491D-A3D8-62A01B3CAB2B}.Release|x64.Build.0 = Release|x64
+		{CE3B6C32-7EA6-41BE-AAD1-7CEAF77EE8B2}.Debug|x64.ActiveCfg = Debug|x64
+		{CE3B6C32-7EA6-41BE-AAD1-7CEAF77EE8B2}.Debug|x64.Build.0 = Debug|x64
+		{CE3B6C32-7EA6-41BE-AAD1-7CEAF77EE8B2}.Release|x64.ActiveCfg = Release|x64
+		{CE3B6C32-7EA6-41BE-AAD1-7CEAF77EE8B2}.Release|x64.Build.0 = Release|x64
+		{7063217F-36A0-4CE7-AF49-A5C9EAC26235}.Debug|x64.ActiveCfg = Debug|x64
+		{7063217F-36A0-4CE7-AF49-A5C9EAC26235}.Debug|x64.Build.0 = Debug|x64
+		{7063217F-36A0-4CE7-AF49-A5C9EAC26235}.Release|x64.ActiveCfg = Release|x64
+		{7063217F-36A0-4CE7-AF49-A5C9EAC26235}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95C9C10C-37D9-462C-87D4-E83AB02282B6}
+	EndGlobalSection
+EndGlobal
